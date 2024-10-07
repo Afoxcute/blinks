@@ -5,7 +5,7 @@ import { Transaction, PublicKey } from "@solana/web3.js";
 
 export async function GET(request: Request) {    
   const responseBody : ActionGetResponse = {
-    icon: "https://pbs.twimg.com/profile_images/1800094112772689920/eF2Kjdus_400x400.jpg",
+    icon: "https://res.cloudinary.com/dficfjyot/image/upload/fl_preserve_transparency/v1728236950/herware_fegi9k.jpg?_s=public-apps",
     description: " This is a solana blinks and actions demo",
     title: " Blinks/Actions Demo",
     label: " Try it out ",
