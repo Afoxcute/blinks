@@ -27,7 +27,7 @@ export async function POST(request: Request) {
 
   const user = new PublicKey(userPubkey);
 
-  const connection = new Connection(clusterApiUrl("mainnet-beta"))
+  const connection = new Connection(clusterApiUrl("devnet"))
 
   const ix = SystemProgram.transfer({
     fromPubkey: user,
