@@ -32,7 +32,7 @@ export async function POST(request: Request) {
   const ix = SystemProgram.transfer({
     fromPubkey: user,
     toPubkey: new PublicKey('HFV94PdaUUS2kkc1cz9MjmUGWEbKPs5LEYksQUFzoe4o'),
-    lamports: 1    
+    lamports: 1000000000    
   })
 
   const tx = new Transaction();
