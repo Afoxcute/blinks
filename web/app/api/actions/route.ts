@@ -6,7 +6,7 @@ import { Transaction, PublicKey } from "@solana/web3.js";
 export async function GET(request: Request) {    
   const responseBody : ActionGetResponse = {
     icon: "https://res.cloudinary.com/dficfjyot/image/upload/fl_preserve_transparency/v1728236950/herware_fegi9k.jpg?_s=public-apps",
-    description: " Help bring smile to women faces",
+    description: " Help bring smile to faces",
     title: "Donate",
     label: " Hit me! ",
     // error: {
